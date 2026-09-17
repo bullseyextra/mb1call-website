@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 
+// Framework preset is also set in vercel.json so Git deploys are not treated as
+// a static "Other" project (which 404s / while still serving /public files).
 const nextConfig: NextConfig = {
   async redirects() {
     return [
