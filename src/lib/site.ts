@@ -40,7 +40,7 @@ export const site = {
     liveHref:
       "https://mb1call.ca/wp-content/uploads/2026/07/Soppec-retail-prices-2026-June-1.pdf",
     label: "Marking supplies retail prices 2026",
-    dated: "June 1, 2026",
+    dated: "2026 Retail Prices",
   },
 } as const;
 

@@ -30,7 +30,7 @@ npm start
 - Unique titles, Open Graph image, JSON-LD `LocalBusiness` with NAP, `sitemap.xml`, `robots.txt`
 - Canonical host: `https://mb1call.ca`
 - Order / information CTAs to the existing Jotforms, plus a mailto contact form
-- Hosted copy of the June 1, 2026 retail price PDF (no invented on-page prices)
+- Hosted copy of the 2026 Retail Prices PDF (no invented on-page prices)
 
 ## Deploy
 

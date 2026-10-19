@@ -22,8 +22,8 @@ export default function PriceListPage() {
         </Heading>
         <Prose className="mt-6">
           <p>
-            Marking-supplies retail prices are published on a one-page PDF dated{" "}
-            {site.priceList.dated}. Product pages on this site do not list
+            Marking-supplies retail prices are published as a one-page{" "}
+            {site.priceList.dated} PDF. Product pages on this site do not list
             prices so we do not invent or drift from that sheet.
           </p>
           <p>

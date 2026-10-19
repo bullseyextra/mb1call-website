@@ -118,8 +118,8 @@ export default function MarkingPaintPage() {
           <Eyebrow>Also available</Eyebrow>
           <Heading className="mt-3">Other Soppec lines—ask</Heading>
           <p className="mt-4 max-w-2xl text-ink-3">
-            These appear on the {site.priceList.dated} retail sheet or the order
-            form. They are not given full catalog pages here. If you need them,
+            These appear on the {site.priceList.dated} sheet or the order form.
+            They are not given full catalog pages here. If you need them,
             say so on the order or information request.
           </p>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2">

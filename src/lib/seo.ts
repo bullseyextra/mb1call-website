@@ -152,7 +152,7 @@ export const pageSeo = {
   priceList: {
     title: "Price list",
     description:
-      "Download the June 1, 2026 MB1Call marking-supplies retail price sheet. Product pages do not list prices; the PDF is the source of truth.",
+      "Download the 2026 Retail Prices MB1Call marking-supplies sheet. Product pages do not list prices; the PDF is the source of truth.",
     path: "/price-list",
   },
 } as const satisfies Record<string, PageMetaInput>;

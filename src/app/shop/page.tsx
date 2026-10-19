@@ -32,8 +32,8 @@ export default function ShopPage() {
             <p>
               Paint is fluorescent and standard Soppec formulas. Flags and
               stakes are selected for Canadian field work. Prices live on the{" "}
-              {site.priceList.dated} retail sheet so we do not invent numbers on
-              these pages.
+              {site.priceList.dated} sheet so we do not invent numbers on these
+              pages.
             </p>
           </Prose>
           <div className="mt-8 flex flex-wrap gap-3">
