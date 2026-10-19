@@ -46,6 +46,7 @@ export const site = {
 
 export const media = {
   logo: "/media/logos/MB1Call-MarkingPaints.png",
+  heroLogo: "/media/logos/MB1Call-MarkingPaints-hero.png",
   icon: "/media/logos/MB1Call-ICON.png",
   appleIcon: "/media/logos/apple-touch-icon.png",
   allCans: "/media/paint/all-cans.png",

@@ -42,7 +42,7 @@ export default function HomePage() {
           </div>
           <div className="rounded-[2rem] bg-white/5 p-4 ring-1 ring-white/10">
             <Image
-              src={media.logo}
+              src={media.heroLogo}
               alt="MB1Call marking supplies logo with Soppec paint cans"
               width={1200}
               height={568}
