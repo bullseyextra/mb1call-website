@@ -40,14 +40,14 @@ export default function HomePage() {
               </ButtonLink>
             </div>
           </div>
-          <div className="rounded-[2rem] bg-white/5 p-4 ring-1 ring-white/10">
+          <div className="min-w-0">
             <Image
               src={media.heroLogo}
               alt="MB1Call marking supplies logo with Soppec paint cans"
               width={1200}
               height={568}
               priority
-              className="h-auto w-full rounded-3xl bg-white object-contain"
+              className="h-auto w-full object-contain"
             />
           </div>
         </Container>
