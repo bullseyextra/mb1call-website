@@ -25,7 +25,7 @@ npm start
 - Next.js App Router, TypeScript, Tailwind CSS
 - Pages: home, shop, marking paint, pin flags, survey stakes, about, contact, privacy, price list
 - Permanent redirects from old WordPress URLs (see `next.config.ts`)
-- Live-site logo (`public/media/logos/MB1Call-MarkingPaints.png`) in the header and about page; homepage hero uses the same lockup with a transparent backdrop (`MB1Call-MarkingPaints-hero.png`) so white “Marking Supplies” reads on the dark section
+- Live-site logo (`public/media/logos/MB1Call-MarkingPaints.png`) for header chrome, OG, and JSON-LD; homepage hero and about use a transparent lockup (`MB1Call-MarkingPaints-hero.png`) so white “Marking Supplies” reads on a dark surface
 - Product photography and manufacturer PDFs from the current catalog
 - Unique titles, Open Graph image, JSON-LD `LocalBusiness` with NAP, `sitemap.xml`, `robots.txt`
 - Canonical host: `https://mb1call.ca`

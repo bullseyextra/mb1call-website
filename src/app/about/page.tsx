@@ -70,13 +70,14 @@ export default function AboutPage() {
                 </ButtonLink>
               </div>
             </div>
-            <div className="rounded-3xl bg-cream p-6 ring-1 ring-line card-shadow">
+            <div className="relative min-w-0 overflow-hidden bg-ink">
+              <div className="pointer-events-none absolute inset-0 grid-texture" />
               <Image
-                src={media.logo}
+                src={media.heroLogo}
                 alt="MB1Call marking supplies brand lockup"
                 width={1200}
                 height={568}
-                className="h-auto w-full object-contain"
+                className="relative h-auto w-full object-contain"
                 priority
               />
             </div>
