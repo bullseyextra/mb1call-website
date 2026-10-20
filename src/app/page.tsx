@@ -17,7 +17,7 @@ export const metadata: Metadata = pageMeta(pageSeo.home);
 export default function HomePage() {
   return (
     <>
-      <section className="relative overflow-hidden bg-ink text-white">
+      <section className="relative overflow-hidden bg-paper text-ink">
         <div className="pointer-events-none absolute inset-0 grid-texture" />
         <Container className="relative grid items-center gap-10 py-16 lg:grid-cols-2 lg:py-20">
           <div>
@@ -25,7 +25,7 @@ export default function HomePage() {
             <h1 className="mt-4 font-display text-5xl leading-[0.95] tracking-tight sm:text-6xl">
               High quality marking paint, pin flags &amp; survey stakes
             </h1>
-            <p className="mt-5 max-w-xl text-lg text-white/75">
+            <p className="mt-5 max-w-xl text-lg text-ink-3">
               A no-nonsense crew that stocks Soppec paint—the pro favourite with
               the patented TP safety cap—plus responsibly sourced flags and
               stakes. Safe · Sustainable · Superior.

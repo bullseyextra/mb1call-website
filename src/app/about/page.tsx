@@ -53,7 +53,7 @@ export default function AboutPage() {
                   (item) => (
                     <li
                       key={item}
-                      className="rounded-2xl bg-brand-soft px-4 py-3 text-center text-sm font-semibold text-brand-dark"
+                      className="rounded-2xl bg-brand-soft px-4 py-3 text-center text-sm font-semibold text-brand"
                     >
                       {item}
                     </li>
@@ -70,7 +70,7 @@ export default function AboutPage() {
                 </ButtonLink>
               </div>
             </div>
-            <div className="relative min-w-0 overflow-hidden bg-ink">
+            <div className="relative min-w-0 overflow-hidden bg-paper">
               <div className="pointer-events-none absolute inset-0 grid-texture" />
               <Image
                 src={media.heroLogo}

@@ -1,20 +1,27 @@
 @import "tailwindcss";
 
+/* Palette drawn from live mb1call.ca (Oct 2026):
+   header/footer #000000, hero/body navy #1B1A27, CTA orange #FF8800 / #FF9500.
+   Surfaces stay dark; ink is light text so cream/paper cards keep AA contrast. */
 :root {
-  --ink: #14110f;
-  --ink-2: #241c16;
-  --ink-3: #4a3c32;
-  --paper: #f6f1ea;
-  --paper-2: #ece3d6;
-  --cream: #fffaf4;
-  --brand: #e85d04;
-  --brand-dark: #c44a00;
-  --brand-soft: #fff1e6;
-  --muted: #6b5f56;
-  --line: #e2d5c6;
+  --night: #000000;
+  --night-2: #0a0a0f;
+  --paper: #1b1a27;
+  --paper-2: #141320;
+  --cream: #252436;
+  --ink: #f6f3ee;
+  --ink-2: #0a0a0f;
+  --ink-3: #c9c5d6;
+  --brand: #ff8800;
+  --brand-dark: #e07800;
+  --brand-soft: #3a2810;
+  --muted: #a8a4b8;
+  --line: #3e3d4f;
 }
 
 @theme inline {
+  --color-night: var(--night);
+  --color-night-2: var(--night-2);
   --color-ink: var(--ink);
   --color-ink-2: var(--ink-2);
   --color-ink-3: var(--ink-3);
@@ -32,6 +39,7 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 html,
@@ -48,7 +56,7 @@ body {
 
 ::selection {
   background: var(--brand);
-  color: white;
+  color: var(--night);
 }
 
 :focus-visible {
@@ -61,7 +69,7 @@ body {
 }
 
 .card-shadow {
-  box-shadow: 0 18px 40px rgb(20 17 15 / 0.08);
+  box-shadow: 0 18px 40px rgb(0 0 0 / 0.35);
 }
 
 .grid-texture {

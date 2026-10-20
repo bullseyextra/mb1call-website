@@ -4,7 +4,7 @@ import { shopLinks, site } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="bg-ink text-white">
+    <footer className="bg-night text-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
         <div className="md:col-span-2">
           <Logo />

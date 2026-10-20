@@ -64,7 +64,7 @@ export function CtaBand({
   body: string;
 }) {
   return (
-    <section className="bg-ink text-white">
+    <section className="bg-night text-white">
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 px-4 py-14 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="max-w-2xl">
           <h2 className="font-display text-3xl sm:text-4xl">{title}</h2>

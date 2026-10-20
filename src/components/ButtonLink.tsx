@@ -10,12 +10,12 @@ const sizes = {
 };
 
 const variants = {
-  primary: "bg-brand text-white hover:bg-brand-dark border border-brand",
-  dark: "bg-ink text-white border-2 border-brand hover:bg-ink-2",
+  primary: "bg-brand text-night hover:bg-brand-dark border border-brand",
+  dark: "bg-night text-ink border-2 border-brand hover:bg-paper",
   outline:
-    "border border-ink/15 bg-cream text-ink hover:border-brand hover:text-brand",
-  ghost: "text-white border border-white/70 hover:bg-white hover:text-ink",
-  cream: "bg-cream text-ink border border-cream hover:bg-white",
+    "border border-line bg-cream text-ink hover:border-brand hover:text-brand",
+  ghost: "text-ink border border-white/40 hover:bg-brand hover:text-night hover:border-brand",
+  cream: "bg-cream text-ink border border-line hover:border-brand",
 };
 
 type ButtonLinkProps = {

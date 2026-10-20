@@ -15,8 +15,8 @@ export default function OpenGraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: "#14110f",
-          color: "white",
+          background: "#1b1a27",
+          color: "#f6f3ee",
           padding: "64px",
         }}
       >
@@ -25,7 +25,7 @@ export default function OpenGraphImage() {
             fontSize: 28,
             letterSpacing: "0.2em",
             textTransform: "uppercase",
-            color: "#e85d04",
+            color: "#ff8800",
             fontWeight: 700,
           }}
         >
@@ -35,11 +35,11 @@ export default function OpenGraphImage() {
           <div style={{ fontSize: 64, fontWeight: 800, lineHeight: 1.05 }}>
             Marking paint, pin flags & survey stakes
           </div>
-          <div style={{ fontSize: 32, color: "#e85d04" }}>
+          <div style={{ fontSize: 32, color: "#ff8800" }}>
             Safe · Sustainable · Superior
           </div>
         </div>
-        <div style={{ fontSize: 24, color: "#d7cbbd" }}>
+        <div style={{ fontSize: 24, color: "#c9c5d6" }}>
           Winnipeg · mb1call.ca
         </div>
       </div>

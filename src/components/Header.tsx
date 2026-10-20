@@ -20,7 +20,7 @@ export function Header() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-white/10 bg-ink text-white">
+    <header className="sticky top-0 z-40 border-b border-white/10 bg-night text-white">
       <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3 sm:px-6">
         <Logo />
         <nav
@@ -90,13 +90,13 @@ export function Header() {
         <div className="ml-auto hidden items-center gap-2 lg:ml-6 lg:flex">
           <Link
             href="/price-list"
-            className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-white hover:bg-brand-dark"
+            className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-night hover:bg-brand-dark"
           >
             Price list
           </Link>
           <a
             href={site.jotforms.order}
-            className="rounded-full border border-brand bg-transparent px-4 py-2 text-sm font-semibold text-white hover:bg-brand"
+            className="rounded-full border border-brand bg-transparent px-4 py-2 text-sm font-semibold text-white hover:bg-brand hover:text-night"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -146,7 +146,7 @@ export function Header() {
             </MobileLink>
             <a
               href={site.jotforms.order}
-              className="mt-3 rounded-full bg-brand px-4 py-3 text-center text-sm font-semibold text-white"
+              className="mt-3 rounded-full bg-brand px-4 py-3 text-center text-sm font-semibold text-night"
               target="_blank"
               rel="noopener noreferrer"
             >

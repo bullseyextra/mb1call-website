@@ -52,7 +52,7 @@ export function ContactForm() {
           name="message"
           required
           rows={5}
-          className="mt-2 w-full rounded-2xl border border-line bg-white px-3 py-2 font-normal text-ink"
+          className="mt-2 w-full rounded-2xl border border-line bg-paper px-3 py-2 font-normal text-ink"
         />
       </label>
       <p className="text-sm text-muted">
@@ -61,7 +61,7 @@ export function ContactForm() {
       </p>
       <button
         type="submit"
-        className="inline-flex rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-dark"
+        className="inline-flex rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-night hover:bg-brand-dark"
       >
         Email MB1Call
       </button>
@@ -95,7 +95,7 @@ function Field({
         type={type}
         autoComplete={autoComplete}
         required={required}
-        className="mt-2 w-full rounded-2xl border border-line bg-white px-3 py-2 font-normal text-ink"
+        className="mt-2 w-full rounded-2xl border border-line bg-paper px-3 py-2 font-normal text-ink"
       />
     </label>
   );
