@@ -72,10 +72,8 @@ export default function ContactPage() {
               </p>
             </address>
             <p className="mt-6 max-w-md text-sm text-muted">
-              Primary email in the header and footer is {site.email}. If you
-              still have an older {site.email.replace(".com", ".ca")} address on
-              file, it may still reach the same desk—please prefer .com on new
-              messages.
+              Email {site.email}. The header, footer, and the form on this page
+              all use that address.
             </p>
           </div>
           <div>

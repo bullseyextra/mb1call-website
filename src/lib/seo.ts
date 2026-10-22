@@ -124,7 +124,7 @@ export const pageSeo = {
   surveyStakes: {
     title: "Wooden survey stakes",
     description:
-      "Wooden lath survey stakes in 24-inch and 48-inch lengths, unpainted or pink-dipped, bundles of 50. Marking supplies from MB1Call in Winnipeg.",
+      "Wooden lath survey stakes in 24-inch and 48-inch lengths, bundles of 50. Only the 48-inch size is pink-dipped; the 24-inch size is unpainted. From MB1Call in Winnipeg.",
     path: "/survey-stakes",
     image: {
       url: media.stakesSelection,
