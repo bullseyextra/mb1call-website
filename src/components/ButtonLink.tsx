@@ -37,12 +37,14 @@ export function ButtonLink({
 }: ButtonLinkProps) {
   const cls = `${base} ${variants[variant]} ${sizes[size]} ${className}`;
   if (external) {
+    const newTab = !href.startsWith("tel:") && !href.startsWith("mailto:");
     return (
       <a
         href={href}
         className={cls}
-        target="_blank"
-        rel="noopener noreferrer"
+        {...(newTab
+          ? { target: "_blank", rel: "noopener noreferrer" }
+          : {})}
       >
         {children}
       </a>

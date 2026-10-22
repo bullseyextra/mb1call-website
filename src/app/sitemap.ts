@@ -11,6 +11,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/", priority: 1, changeFrequency: "weekly" },
     { path: "/shop", priority: 0.9, changeFrequency: "monthly" },
     { path: "/marking-paint", priority: 0.85, changeFrequency: "monthly" },
+    {
+      path: "/where-to-buy-soppec-marking-paint-winnipeg",
+      priority: 0.84,
+      changeFrequency: "monthly",
+    },
     { path: "/pin-flags", priority: 0.8, changeFrequency: "monthly" },
     { path: "/survey-stakes", priority: 0.8, changeFrequency: "monthly" },
     { path: "/about", priority: 0.7, changeFrequency: "monthly" },
