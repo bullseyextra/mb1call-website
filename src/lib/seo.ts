@@ -111,6 +111,16 @@ export const pageSeo = {
       alt: "Soppec Fluo TP, Pro Marker, and Ideal Spray cans",
     },
   },
+  whereToBuySoppec: {
+    title: "Where to Buy Soppec Marking Paint in Winnipeg",
+    description:
+      "Buy Soppec Fluo TP, Pro Marker and Ideal Spray from a Winnipeg supplier. Case and pallet pricing, shipped across Canada. Send an order request today.",
+    path: "/where-to-buy-soppec-marking-paint-winnipeg",
+    image: {
+      url: media.allCans,
+      alt: "Soppec Fluo TP, Pro Marker, and Ideal Spray cans",
+    },
+  },
   pinFlags: {
     title: "Pin flags for professional marking",
     description:

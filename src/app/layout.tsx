@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import { Barlow, Barlow_Condensed } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import { JsonLd } from "@/components/JsonLd";
 import { MobileCallBar } from "@/components/MobileCallBar";
 import { SkipLink } from "@/components/SkipLink";
 import { defaultOgImage, defaultTitle } from "@/lib/seo";
@@ -76,7 +75,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         className={`${barlow.variable} ${display.variable} min-h-screen bg-paper pb-20 font-sans text-ink antialiased lg:pb-0`}
       >
         <SkipLink />
-        <JsonLd />
         <Header />
         <div id="content">{children}</div>
         <Footer />

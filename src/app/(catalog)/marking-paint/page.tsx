@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { ButtonLink } from "@/components/ButtonLink";
 import { ColorDots, CtaBand } from "@/components/CategoryCard";
 import {
@@ -39,10 +40,26 @@ export default function MarkingPaintPage() {
                   Manufacturer sheets are linked below; we do not add claims that
                   are not on those sheets or the live catalog.
                 </p>
+                <p>
+                  <Link
+                    href="/where-to-buy-soppec-marking-paint-winnipeg"
+                    className="font-semibold text-brand underline decoration-brand/40 underline-offset-2 hover:decoration-brand"
+                  >
+                    Where to buy Soppec marking paint in Winnipeg
+                  </Link>{" "}
+                  covers case and pallet orders, in-store pickup, local
+                  delivery, and shipping across Canada.
+                </p>
               </Prose>
               <div className="mt-8 flex flex-wrap gap-3">
                 <ButtonLink href={site.jotforms.order} external>
                   Place an order
+                </ButtonLink>
+                <ButtonLink
+                  href="/where-to-buy-soppec-marking-paint-winnipeg"
+                  variant="outline"
+                >
+                  Where to buy in Winnipeg
                 </ButtonLink>
                 <ButtonLink href="/price-list" variant="outline">
                   Price list
