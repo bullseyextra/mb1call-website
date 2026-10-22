@@ -9,7 +9,7 @@ export const site = {
     "Winnipeg marking-supplies shop for contractors, surveyors, and utility crews. Soppec marking paint, pin flags, and survey stakes. Inquire or order—no online checkout.",
   phoneDisplay: "204-777-6590",
   phoneTel: "+12047776590",
-  email: "info@mb1call.com",
+  email: "info@mb1call.ca",
   hours: {
     display: "Monday–Friday, 8am–4pm",
     days: "Monday through Friday",
@@ -119,7 +119,7 @@ export const categories = [
     navLabel: "Survey stakes",
     cardTitle: "Survey stakes",
     summary:
-      "Wooden lath survey stakes in 24-inch and 48-inch lengths, unpainted or pink-dipped, sold in bundles of 50.",
+      "Wooden lath survey stakes in 24-inch and 48-inch lengths, sold in bundles of 50. Only the 48-inch size is pink-dipped; the 24-inch size is unpainted.",
     image: media.stakesSelection,
     imageAlt: "Bundle of wooden survey stakes with pink-dipped ends",
   },
@@ -182,7 +182,6 @@ export const paintLines = [
 ] as const;
 
 export const alsoAvailablePaint = [
-  "Fluo TP Hydro (water-based fluorescent)",
   "Fluo Marker (forestry)",
   "Tracing / line tracer",
   "Glava Zinc Matt 97%",

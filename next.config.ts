@@ -45,6 +45,19 @@ const nextConfig: NextConfig = {
         destination: "/docs/Soppec-retail-prices-2026-June-1.pdf",
         permanent: true,
       },
+      // Soppec Fluo TP Hydro is no longer carried. Old Shopify product URLs
+      // (and the mb1call.com domain redirect that preserves the path) land here.
+      {
+        source: "/products/:slug(fluo-tp-hydro(-[A-Za-z0-9-]+)?)",
+        destination: "/marking-paint",
+        permanent: true,
+      },
+      {
+        source:
+          "/collections/:collection/products/:slug(fluo-tp-hydro(-[A-Za-z0-9-]+)?)",
+        destination: "/marking-paint",
+        permanent: true,
+      },
       {
         source: "/cart",
         destination: "/shop",

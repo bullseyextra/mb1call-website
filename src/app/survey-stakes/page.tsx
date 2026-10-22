@@ -32,8 +32,9 @@ export default function SurveyStakesPage() {
             </p>
             <p>
               Lengths and finishes on the current retail sheet are listed below.
-              Each starts as a bundle of 50. Pair them with pin flags and
-              marking paint for a complete marking setup.
+              The 48-inch lath is unpainted or pink-dipped. The 24-inch lath is
+              unpainted only. Each starts as a bundle of 50. Pair them with pin
+              flags and marking paint for a complete marking setup.
             </p>
           </Prose>
           <div className="mt-8 flex flex-wrap gap-3">
